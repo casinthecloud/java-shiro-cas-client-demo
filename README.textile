@@ -1,0 +1,4 @@
+These webapp demos are made to test CAS support with Shiro.
+
+The **cas-shiro-demo-app** webapp should be started on localhost:8080/app : it's the protected application.
+The **cas-shiro-demo-server** webapp should be started on localhost:8080/cas : it's the CAS server configured with remember-me feature.
