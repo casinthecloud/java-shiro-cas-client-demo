@@ -1,4 +1,4 @@
-java-shiro-cas-client-demo [![Build Status](https://travis-ci.org/casinthecloud/java-shiro-cas-client-demo.svg?branch=master)](https://travis-ci.org/casinthecloud/java-shiro-cas-client-demo)
+java-shiro-cas-client-demo
 ==
 
 Demo using the CAS client from the Shiro project (in Java) to protect a web application.
