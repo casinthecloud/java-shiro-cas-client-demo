@@ -6,8 +6,8 @@
     </encoder>
   </appender>
 
-  <logger name="org.jasig.cas" level="TRACE" />
-  <logger name="org.apache.shiro" level="TRACE" />
+  <!-- logger name="org.jasig.cas" level="TRACE" />
+  <logger name="org.apache.shiro" level="TRACE" /-->
 
   <root level="WARN">
     <appender-ref ref="STDOUT" />
