@@ -28,7 +28,6 @@
 			<artifactId>jcl-over-slf4j</artifactId>
 			<version>1.7.1</version>
 		</dependency>
-		
 	</dependencies>
 	<build>
 		<finalName>${project.artifactId}</finalName>
