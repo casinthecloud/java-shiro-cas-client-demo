@@ -10,8 +10,11 @@ Use **mvn clean compile jetty:run** to start the webapp on **http://localhost:80
 Most of the configuration is defined in the **src/main/resources/shiro.ini** file.
 
 Use your own CAS in the cloud server with the following option:
+
 - 'Authorize redirection urls after logout'
+
 and the following service:
+
 - Service url: 'http://localhost:8080/shiro-cas' as an 'Ant pattern'
 - 'Call from the browser to the specific application url for logout: http://localhost:8080/logout'.
 
@@ -26,7 +29,10 @@ Utilisez **mvn clean compile jetty:run** pour lancer le site web sur **http://lo
 L'essentiel de la configuration est défini dans le fichier **src/main/resources/shiro.ini**.
 
 Utilisez votre propre serveur CAS in the cloud avec l'option :
+
 - 'Autoriser les urls de redirection après déconnexion'
+
 et le service suivant :
+
 - Url de service : 'http://localhost:8080/shiro-cas' en tant que 'Expression Ant'
 - 'Appel depuis le navigateur de l'url applicative spécifique pour la déconnexion : http://localhost:8080/logout'.
