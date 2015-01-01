@@ -4,6 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>java-shiro-cas-client-demo</title>
 	<meta charset="UTF-8" />
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
 </head>
@@ -17,7 +18,6 @@
 		</ul>
 		<% Subject subject = SecurityUtils.getSubject(); %>
 		<h3>
-			<p>principal : <%=subject.getPrincipal()%></p>
 			<p>principals : <%=subject.getPrincipals()%></p>
 			<p>isAuthenticated : <%=subject.isAuthenticated()%></p>
 		</h3>
