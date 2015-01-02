@@ -1,4 +1,4 @@
-Java webapp protected by the Shiro CAS client
+Java webapp protected by the Shiro CAS client (http://shiro.apache.org)
 ==
 
 ![English](https://www.casinthecloud.com/img/other/flag_en.png)
