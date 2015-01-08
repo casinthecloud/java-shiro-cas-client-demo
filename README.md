@@ -16,7 +16,8 @@ Use your own CAS in the cloud server with the following option:
 and the following service:
 
 - Service url: 'http://localhost:8080/shiro-cas' as an 'Ant pattern'
-- 'Call from the browser to the specific application url for logout: http://localhost:8080/logout'.
+- 'Call from the browser to the specific application url for logout: http://localhost:8080/logout'
+- *Returned attribute(s)* : 'all the attributes'.
 
 ==
 
@@ -35,4 +36,5 @@ Utilisez votre propre serveur CAS in the cloud avec l'option :
 et le service suivant :
 
 - Url de service : 'http://localhost:8080/shiro-cas' en tant que 'Expression Ant'
-- 'Appel depuis le navigateur de l'url applicative spécifique pour la déconnexion : http://localhost:8080/logout'.
+- 'Appel depuis le navigateur de l'url applicative spécifique pour la déconnexion : http://localhost:8080/logout'
+- *Attribut(s) renvoyé(s)* : 'tous les attributs'.
