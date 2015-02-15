@@ -13,8 +13,8 @@
 		<ul class="nav nav-tabs">
 			<li class="active"><a href="/index.jsp">You are on the /index.jsp page</a></li>
 			<li><a href="/protected/index.jsp">Call the /protected/index.jsp page</a></li>
-			<!-- #### change with your own CAS in the cloud server and your host name #### -->
-			<li><a href="https://freeuse1.casinthecloud.com/leleujgithub/logout?service=http://localhost:8080">Call the CAS logout</a></li>
+			<!-- #### change with your own CAS server and your host name #### -->
+			<li><a href="http://localhost:8888/cas/logout?service=http://localhost:8080">Call the CAS logout</a></li>
 		</ul>
 		<% Subject subject = SecurityUtils.getSubject(); %>
 		<h3>
